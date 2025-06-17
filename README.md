@@ -27,7 +27,7 @@
 
 2. Crie o banco de dados:
    - Acesse http://localhost/phpmyadmin
-   - Crie um novo banco de dados com o nome especificado no projeto
+   - Crie um novo banco de dados usando o SQL do arquivo de texto "BD_StudyMatch"
 
 ### 3. Configurar a rede
 1. Descubra seu IP local:
