@@ -9,7 +9,18 @@
 
 ## Passo a Passo
 
-### 1. Configurar o ambiente
+### 1. Substitua os arquivos
+1. Server:
+   - Baixe o arquivo "server.zip"
+   - Descompacte ele na sua aplicação react
+   - Exclua o antigo arquivo server
+     
+2. Client:
+   - Baixe o arquivo "src.zip"
+   - Descompacte ele na pasta "client" da sua aplicação react
+   - exclua o antigo arquivo "src"
+
+### 2. Configurar o ambiente
 1. Inicie o XAMPP e ative:
    - Apache
    - MySQL
@@ -18,7 +29,7 @@
    - Acesse http://localhost/phpmyadmin
    - Crie um novo banco de dados com o nome especificado no projeto
 
-### 2. Configurar a rede
+### 3. Configurar a rede
 1. Descubra seu IP local:
    - Abra CMD e execute `ipconfig`
    - Anote o IPv4 do adaptador de rede sem fio
@@ -27,12 +38,12 @@
    - Edite `client/src/App.js`
    - Substitua o IP existente pelo seu IPv4 anotado
 
-### 3. Instalar dependências
+### 4. Instalar dependências
 Na pasta **server**:
 ```bash
 npm install mysql2 cors nodemon axios express
 ```
-### 4. Iniciar a aplicação
+### 5. Iniciar a aplicação
 1. Primeiro o servidor (em um terminal):
 
 ```bash
